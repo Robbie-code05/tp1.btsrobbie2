@@ -1,0 +1,29 @@
+body{
+    background: #000000
+
+}
+
+h2{
+    color:blue;
+    animation: Test 2s infinite;
+}
+
+hr{
+    width:50%;
+    height:2px;
+}
+a {
+    color: white;
+}
+@keyframes Test {
+    from{
+        opacity: 0;
+        color: aliceblue;
+        
+    }
+
+    to{
+        opacity: 1;
+        color: yellow;
+    }
+}
